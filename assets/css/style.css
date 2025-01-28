@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Black.ttf') format('truetype');
+  }
+
+html, body {
+    margin: 0;
+    background-color: #2F4F30;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-custom {
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 170px;
+    height: 55px;
+    color: #fff;
+    font-family: Montserrat;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.btn-custom#btn-new-game{
+   
+
+}
+
+.btn-custom#btn-get-card{
+    background-color: #806c17;
+}
+
+
+.btn-custom#btn-stop-game{
+    background-color: #7c2908;
+    
+}
+
+
+.btn-custom:hover {
+    background-color: #45a049;
+}
+
+.card {
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.player-text, .computer-text {
+    font-weight: bold;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+}
+
+.card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
